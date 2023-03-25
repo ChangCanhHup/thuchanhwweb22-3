@@ -1,3 +1,8 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
 .header {
     display: flex;
     justify-content: center;
@@ -218,4 +223,25 @@ ul {
 {
     font-size: 25px;
     color: grey;
+}
+.gird-related
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px;
+}
+.pro-title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gird-related p
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
 }
