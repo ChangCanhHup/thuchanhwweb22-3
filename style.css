@@ -1,8 +1,8 @@
-*
-{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 .header {
     display: flex;
     justify-content: center;
@@ -176,7 +176,10 @@ ul {
     border-bottom: 2px solid grey;
 }
 
-.review {}
+.review {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .menu-reviews {
     display: flex;
@@ -201,6 +204,7 @@ ul {
     display: flex;
     grid-template-columns: 50% 50%;
     gap: 30px;
+    row-gap: 15px;
 }
 
 .info-user {
@@ -209,9 +213,10 @@ ul {
     padding: 0;
     margin: 0;
 }
-.related
-{
+
+.related {
     margin-top: 40px;
+    border-bottom: solid 2px grey;
 }
 
 .rela-content {
@@ -219,29 +224,63 @@ ul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
-.see
-{
+
+.see {
     font-size: 25px;
     color: grey;
 }
-.gird-related
-{
+
+.gird-related {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     gap: 15px;
+    margin-bottom: 100px;
 }
-.pro-title
-{
+
+.pro-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.gird-related p
-{
+
+.gird-related p {
     display: flex;
     justify-content: flex-end;
     margin: 10px 0 10px 0;
     font-size: 30px;
     font-weight: bold;
     color: aqua;
+}
+
+.logo-sup-gmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {}
+.content-footer
+ {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-footer ul li{
+    margin: 14px 0 14px 0;
+    font-size: 20px;
+}
+.footer-contact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-contact img
+{
+    margin-left: 15px;
+    object-fit: contain;
 }
